@@ -10,9 +10,9 @@ last_digit_with_sign = -last_digit if number < 0 else last_digit
 # Check if the number is positive, negative, or zero
 print("Last digit of", number, "is", last_digit_with_sign, end=" ")
 
-if last_digit > 5:
+if last_digit_with_sign > 5:
     print("and is greater than 5")
-elif last_digit < 6 and last_digit != 0:
+elif last_digit_with_sign < 6 and last_digit_with_sign != 0:
     print("and is less than 6 and not 0")
 else:
     print("and is 0")
