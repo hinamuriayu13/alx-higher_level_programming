@@ -8,4 +8,3 @@ def islower(c):
     return 97 <= ascii_value <= 122
 
 
-print("a is {}".format("lower" if islower("a") else "upper"))
